@@ -314,3 +314,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+#mapoverlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  /* your iframe height */
+}
