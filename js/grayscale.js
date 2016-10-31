@@ -41,7 +41,6 @@ var nearbyCtr = new google.maps.LatLng(41.8971247,-87.6211848);
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
     map.setCenter(ctr);
-    nearbyMap.setCenter(ctr);
 });
 
 function init() {
@@ -94,9 +93,7 @@ function init() {
         center: nearbyCtr, // New York
 
         // Disables the default Google Maps UI components
-        disableDefaultUI: true,
         scrollwheel: false,
-        draggable: false,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
